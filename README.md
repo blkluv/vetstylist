@@ -4,7 +4,7 @@
 
 <div align="center">
 
-##### Created by <a href="https://alexehouston.github.io/portfolio/" target=”_blank”>Alex E. Houston</a>
+##### Created by <a href="https://arvrtise.com" target=”_blank”>ARVRtise</a>
 
 [![GitHub Badge](https://img.shields.io/github/followers/alexehouston?label=Follow&style=social)](https://www.github.com/alexehouston/)
 
@@ -12,9 +12,9 @@
 
 # :pencil: Description
 
-Daniel Sung Hoon Kim is a traveling hairstylist based in Los Angeles, CA. Daniel's clients are able to navigate to this website in order to book appointments.
+Yvette is a traveling hairstylist based in Lawrenceville,Georgia. Yvette's clients are able to navigate to this website in order to book appointments.
 
-<a href="https://danielsunghoonkim.com" target=”_blank”>Deployed Link</a>
+<a href="https://hairvet.vercel.app/" target=”_blank”>Deployed Link</a>
 
 <br>
 

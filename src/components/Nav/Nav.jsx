@@ -4,15 +4,14 @@ export default function Nav({ currentPage, setCurrentPage }) {
 
     return (
         <div className="Nav">
-            <h1 className="title-hover" onClick={() => setCurrentPage('home')}>Daniel Sung hoon Kim</h1>
+            <h1 className="title-hover" onClick={() => setCurrentPage('home')}>Hair Vet</h1>
             <ul>
                 <li className="hover" onClick={() => setCurrentPage('booking')}>Booking</li>
-                {/* <li className="hover"><a href="https://danielkim.as.me/" target="_blank" rel="noreferrer">Booking</a></li> */}
+                {/* <li className="hover"><a href="https://vett-102378.square.site" target="_blank" rel="noreferrer">Booking</a></li> */}
                 <li className="hover" onClick={() => setCurrentPage('dates')}>Travel Dates</li>
-                <li className="hover"><a href="https://shop.saloninteractive.com/store/DanielKim" target="_blank" rel="noreferrer">Shop</a></li>
                 <li className="hover" onClick={() => setCurrentPage('about')}>About</li>
-                <li className="hover"><a href="https://instagram.com/danielsunghoonkim/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a></li>
-                <li className="hover"><a href="mailto:daniel@danielsunghoonkim.com"><i className="fa-regular fa-envelope"></i></a></li>
+                <li className="hover"><a href="https://instagram.com/hairvetatl" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a></li>
+                <li className="hover"><a href="mailto:ymtriplett@gmail.com"><i className="fa-regular fa-envelope"></i></a></li>
             </ul>
         </div>
     );
