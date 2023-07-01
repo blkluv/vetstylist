@@ -1,4 +1,8 @@
-import './App.css';
+import React, { useState } from 'react';
+import Nav from './Nav';
+import Booking from './Booking';
+import Dates from './Dates';
+import About from './About';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
