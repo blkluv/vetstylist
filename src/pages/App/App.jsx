@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Nav from './components/Nav';
+import Nav from './Nav';
 import Booking from './Booking';
 import Dates from './Dates';
 import About from './About';
@@ -22,7 +22,7 @@ export default function App() {
           <div className="centered">
             <p className="sunghoon">Master Cosmetologist</p>
           </div>
-          <h1>Hair Stylist</h1>
+          <h1>Yvette Triplett</h1>
         </div>
       )}
     </>
