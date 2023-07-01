@@ -1,4 +1,3 @@
-import React from 'react';
 import './Nav.css';
 
 export default function Nav({ currentPage, setCurrentPage }) {
@@ -29,7 +28,9 @@ export default function Nav({ currentPage, setCurrentPage }) {
           </a>
         </li>
         <li className="hover">
-          <a href="tel:6785224329">678-522-4329</a>
+          <a href="tel:6785224329">
+            <i className="fa-regular fa-phone"></i>
+          </a>
         </li>
       </ul>
     </div>
