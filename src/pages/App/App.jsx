@@ -18,7 +18,7 @@ export default function App() {
       : ( <div className="home">
             <img src="/assets/paint.png" alt="" />
             <p className="sunghoon">Master Cosmetologist</p>
-            <h1>Hair Stylist</h1>
+            <h1>Yvette Triplett</h1>
           </div> )}
     </>
   );
