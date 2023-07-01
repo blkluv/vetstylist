@@ -8,7 +8,7 @@ export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
 
   return (
-    <>
+    <React.Fragment>
       <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
       {currentPage === 'booking' ? (
         <Booking />
@@ -25,6 +25,6 @@ export default function App() {
           <h1>Yvette Triplett</h1>
         </div>
       )}
-    </>
+    </React.Fragment>
   );
 }
