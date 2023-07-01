@@ -9,7 +9,7 @@ export default function Booking() {
                     <button className="button-54"><a href="https://vett-102378.square.site" target="_blank" rel="noreferrer">Click To Book</a></button>
                 </div>
                 <div className="cali-booking">
-                    <h3>Lawrenceville</h3>
+                    <h3>Salon</h3>
                     <div className="mare">
                         <h5>My Salon Suite</h5>
                         <div className="contact-icons">
