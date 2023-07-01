@@ -1,30 +1,25 @@
-import React, { useState } from 'react';
-import Nav from './Nav';
-import Booking from './Booking';
-import Dates from './Dates';
-import About from './About';
+import { useState } from 'react';
+import 'animate.css';
+import Nav from '../../components/Nav/Nav';
+import Booking from '../../pages/Booking/Booking';
+import Dates from '../../pages/Dates/Dates';
+import About from '../../pages/About/About';
+import './App.css';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
 
   return (
-    <React.Fragment>
+    <>
       <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      {currentPage === 'booking' ? (
-        <Booking />
-      ) : currentPage === 'dates' ? (
-        <Dates />
-      ) : currentPage === 'about' ? (
-        <About />
-      ) : (
-        <div className="home">
-          <img src="/assets/paint.png" alt="" />
-          <div className="centered">
+      {currentPage === 'booking' ? ( <Booking /> )
+      : currentPage === 'dates' ? ( <Dates /> )
+      : currentPage === 'about' ? ( <About /> )
+      : ( <div className="home">
+            <img src="/assets/paint.png" alt="" />
             <p className="sunghoon">Master Cosmetologist</p>
-          </div>
-          <h1>Yvette Triplett</h1>
-        </div>
-      )}
-    </React.Fragment>
+            <h1>Hair Stylist</h1>
+          </div> )}
+    </>
   );
 }
