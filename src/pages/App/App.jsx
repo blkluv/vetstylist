@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Nav from './Nav';
+import Nav from './components/Nav';
 import Booking from './Booking';
 import Dates from './Dates';
 import About from './About';
