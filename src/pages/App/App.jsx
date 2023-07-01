@@ -17,7 +17,7 @@ export default function App() {
       : currentPage === 'about' ? ( <About /> )
       : ( <div className="home">
             <img src="/assets/paint.png" alt="" />
-            <p className="sunghoon">김성훈</p>
+            <p className="sunghoon">Master Cosmetologist</p>
             <h1>Hair Stylist</h1>
           </div> )}
     </>
