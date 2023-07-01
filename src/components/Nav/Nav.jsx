@@ -13,7 +13,7 @@ export default function Nav({ currentPage, setCurrentPage }) {
         </li>
         {/* <li className="hover"><a href="https://vett-102378.square.site" target="_blank" rel="noreferrer">Booking</a></li> */}
         <li className="hover" onClick={() => setCurrentPage('dates')}>
-          Travel Dates
+          Travel
         </li>
         <li className="hover" onClick={() => setCurrentPage('about')}>
           About

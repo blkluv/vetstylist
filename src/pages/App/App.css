@@ -61,7 +61,7 @@ a {
 .sunghoon {
   font-family: 'Do Hyeon';
   color: greenyellow;
-  font-size: 8.5vmin;
+  font-size: 4.2vmin;
   text-align: center;
   margin: -8vmin 21.5vmin 0 0;
 }
@@ -83,7 +83,7 @@ a {
   }
 
   .sunghoon {
-    font-size: 10vmin;
+    font-size: 5vmin;
     margin: -8.5vmin 20vmin 0 0;
   }
 
@@ -112,7 +112,7 @@ a {
   .sunghoon {
     width: 100%;
     margin: -9vmin -6vmin 0 0;
-    font-size: 11vmin;
+    font-size: 5.5vmin;
   }
   
 }
