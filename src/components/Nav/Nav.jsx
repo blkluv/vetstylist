@@ -1,4 +1,6 @@
 import './Nav.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faEnvelope, faPhone } from '@fortawesome/free-regular-svg-icons';
 
 export default function Nav({ currentPage, setCurrentPage }) {
   return (
@@ -19,17 +21,17 @@ export default function Nav({ currentPage, setCurrentPage }) {
         </li>
         <li className="hover">
           <a href="https://instagram.com/hairvetatl" target="_blank" rel="noreferrer">
-            <i className="fa-brands fa-instagram"></i>
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
         </li>
         <li className="hover">
           <a href="mailto:ymtriplett@gmail.com">
-            <i className="fa-regular fa-envelope"></i>
+            <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </li>
         <li className="hover">
           <a href="tel:6785224329">
-            <i className="fa-regular fa-phone"></i>
+            <FontAwesomeIcon icon={faPhone} />
           </a>
         </li>
       </ul>
