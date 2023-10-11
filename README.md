@@ -14,7 +14,7 @@
 
 Yvette is a traveling hairstylist based in Lawrenceville,Georgia. Yvette's clients are able to navigate to this website in order to book appointments.
 
-<a href="https://hairvet.vercel.app/" target=”_blank”>Deployed Link</a>
+<a href="https://hairvet.net/" target=”_blank”>Deployed Link</a>
 
 <br>
 
